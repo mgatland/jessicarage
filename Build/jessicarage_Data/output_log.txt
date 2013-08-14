@@ -1,0 +1,57 @@
+Initialize engine version: 4.2.0f4 (38efbd14869d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [aticfx32.dll 8.17.10.1077]
+    Renderer: ATI Radeon HD 4800 Series         
+    Vendor:   ATI
+    VRAM:     1399 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=1
+Begin MonoManager ReloadAssembly
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.074 seconds
+desktop: 1280x1024 60Hz; virtual: 2560x1024 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: K:\i\dev\jessicarage\Build\jessicarage_Data\Managed\Boo.Lang.dll (this message is harmless)
+D3D shader create error for shader ps_2_0
+; 21 ALU
+def c3, 0.00000000, 1.00000000, 0, 0
+dcl t1.xy
+add r0.x, t1.y, -c2
+add r2.x, t1, -c2
+add r3.x, t1, -t1.y
+add r3.x, r3, -c2
+cmp r2.x, r2, c3, c3.y
+cmp r0.x, r0, c3, c3.y
+add_pp_sat r0.x, r2, r0
+cmp r1, -r0.x, r1, c0
+add r2.x, t1.y, -t1
+add r2.x, r2, -c2
+cmp r2.x, r2, c3, c3.y
+cmp r3.x, r3, c3, c3.y
+mul_pp r3.x, r3, r2
+abs_pp r2.x, r3
+cmp_pp r0.x, -r0, c3.y, c3
+mul_pp r3.x, r0, r3
+cmp_pp r2.x, -r2, c3.y, c3
+cmp r1, -r3.x, r1, c0
+mul_pp r0.x, r0, r2
+cmp r0, -r0.x, r1, c1
+mov oC0, r0
+
+Shader 'Custom/BarycentricWireframeUv1': fallback shader 'Vertex Colored' not found
+Unsupported: Custom/BarycentricWireframeUv1
+awake
+ 
+(Filename: C:/BuildAgent/work/cac08d8a5e25d4cb/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+

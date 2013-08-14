@@ -6,15 +6,15 @@ using System.Collections;
  
 public class Movement2 : MonoBehaviour {
  
-	private float speed = 10.0f;
-	private float gravity = 10.0f;
-	private float maxVelocityChange = 1.0f;
+	private float speed = 20.0f;
+	private float gravity = 40.0f;
+	private float maxVelocityChange = 2.0f;
 	private float airControl = 0.5f;
 	private bool grounded = false;
 	
 	//jetpack
 	private bool canJump = true;
-	private float thrust = 12f; //10 is gravity.
+	private float thrust = 44f;
 	private float maxFuel = 100f;
 	private float fuel = 100f;
  
